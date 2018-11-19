@@ -1,0 +1,57 @@
+ 
+   
+   <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-4">
+                  <a  routerLink=""  href="#"> <img id="IMAGEFLIP" src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_4ee2f9.png" alt="">
+                  </a>
+              </div> 
+              <div class="col-md-8">
+                  <form  >
+                      <input id="SearchInput"  type="search" placeholder="Search for Products Brands and More"  >
+                      <button  (click)="DOSEARCH($event)"  id="searchButton" class="btn " type="submit">
+                          <a id="SearchBtn" routerLink="/search"><i class="fas fa-search"></i></a>
+                        
+                      </button>
+                    </form>
+               
+              </div>
+           </div> 
+            
+          </div>
+          <div class=" col-md-5">
+              <ul  >
+                  <li  >
+                    <a id="tag2" routerLink="/login"    href="#">Login
+                      <!-- <img id="loginimg" (click)="DOLOGIN($event)" src="https://png.icons8.com/ios/50/000000/password-filled.png"> -->
+                      <i class="fas fa-user-lock"></i>
+                    </a>
+                    
+                  </li>
+                  <li  >
+                    <!-- (click)="DOREGISTER($event)" -->
+                      <a routerLink="/signup"  id="tag2"  >Signup  
+                        <i class="fas fa-user"></i></a>
+                    </li>
+                  <li  >
+                   
+                    <a routerLink="/cart" id="tag3" href="#"> Cart
+                      <i class="fas fa-cart-plus"></i></a>
+                    
+                   
+                  </li>
+                  
+                </ul>
+          </div>
+        </div>
+      </div>
+    
+    </header>
+    
+    
+
+
+   
